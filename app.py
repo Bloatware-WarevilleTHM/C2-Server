@@ -5,7 +5,7 @@ app = Flask(__name__)
 app.secret_key = "@09JKD0934jd712?djD"
 
 ADMIN_USERNAME = "admin"           
-ADMIN_PASSWORD = "securepassword" #CHANGE ME!!!
+ADMIN_PASSWORD = "123" #CHANGE ME!!!
 
 @app.route("/")
 def home():
